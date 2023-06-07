@@ -100,24 +100,24 @@ const Navbar = () => {
           </div>
           <ul className="p-4  text-center pt-24">
             <li className="p-4 border-b py-6 font-semibold border-b-gray-600 ">
-              <a href="/home" onClick={(event) => handleClick(event, "home")}>
+              <a href="" onClick={(event) => handleClick(event, "hero")}>
                 Home
               </a>
             </li>
             <li className="p-4 border-b py-6 font-semibold border-b-gray-600">
-              <a href="#" onClick={(event) => handleClick(event, "market")}>
-                About
+              <a href="" onClick={(event) => handleClick(event, "market")}>
+                Market
               </a>
             </li>
             <li className="p-4 border-b py-6 font-semibold border-b-gray-600">
-              <a href="#" onClick={(event) => handleClick(event, "chooseus")}>
-                Projects
+              <a href="" onClick={(event) => handleClick(event, "chooseus")}>
+                Choose Us
               </a>
             </li>
 
             <li className="p-4 border-b py-6 font-semibold">
-              <a href="#" onClick={(event) => handleClick(event, "contact")}>
-                Contact
+              <a href="" onClick={(event) => handleClick(event, "app")}>
+                App
               </a>
             </li>
           </ul>
