@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DOMPurify from "dompurify";
-import FetchData from "../data/FetchData";
+
 import Formatting from "../components/Formatting";
 
 function Coin() {
   const { coinId } = useParams();
   const [coin, setCoin] = useState({});
-  const [loadCoin, setLoadCoin] = useState(true);
 
   const url = `https://api.coingecko.com/api/v3/coins/${coinId}`;
 

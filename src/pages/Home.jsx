@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import Market from "../components/Market";
 import Url from "../apis/Url";

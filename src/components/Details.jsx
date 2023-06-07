@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { FaWallet } from "react-icons/fa";
+
 import data from "../data/cardsData";
 
 const Details = () => {

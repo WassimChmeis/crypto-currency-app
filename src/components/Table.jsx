@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../table.css";
 import { useNavigate } from "react-router-dom";
 
@@ -9,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 //   const priceChangePerc = data[0]?.price_change_percentage_24h;
 
 const Table = ({ data }) => {
-  const [color, setColor] = useState(false);
   const navigate = useNavigate();
 
   function formatPriceChangePerc(num) {
