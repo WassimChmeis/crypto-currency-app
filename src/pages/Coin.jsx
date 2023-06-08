@@ -49,11 +49,11 @@ function Coin() {
           </h4>
           <h4>
             Price:{" "}
-            <spam className="text-[#0ecb81]">
+            <span className="text-[#0ecb81]">
               {Formatting.formatCurrentPrice(
                 coin.market_data?.current_price?.usd
               )}
-            </spam>
+            </span>
           </h4>
           <h4>Symbol: {coin.symbol}</h4>
         </div>

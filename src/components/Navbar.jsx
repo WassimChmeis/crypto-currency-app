@@ -4,10 +4,13 @@ import React, { useState } from "react";
 import { MdSegment, MdClear } from "react-icons/md";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
-import { BsCurrencyBitcoin } from "react-icons/bs";
+
+// import { useParams } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  // const { tabLocation } = useParams();
+  // const wind = window.location.pathname;
 
   const handleNav = () => {
     setNav(!nav);
@@ -28,7 +31,7 @@ const Navbar = () => {
     <div className=" font-dominant bg-[#0f172a] fixed w-full flex justify-between items-center mx-auto px-5 md:px-12 text-white  h-20 shadow-md mb-1 ">
       <a href="/">
         <h1 className=" font-bold text-xl flex items-center">
-          KRYPTO <BsCurrencyBitcoin className=" text-[#FFD700] text-[28px]" />
+          KRYPTO <span className="text-[26px]">⚡</span>
         </h1>
       </a>
       <ul className="font-semibold text-[17px] md:flex hidden">
